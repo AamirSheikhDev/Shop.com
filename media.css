@@ -1,0 +1,189 @@
+@media (width >= 1365px){
+    .navigation{
+       width: 1100px;
+    }
+
+    #main{
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width:768px) {
+    html{
+        font-size: 40%;
+    }
+    #main{
+        width: 97%;
+    }
+    nav{
+        position: absolute;
+        left: 0px;
+        top:0px;
+        padding-top: 10px;
+        width: 210px;
+        height: 130vh;
+        background-color: rgba(255, 0, 0, 0.137);
+        transform: translateX(-210px);
+        transition: all .5s ease-in;
+    }
+    .nav-btn-control{
+        transform: translateX(0%);
+    }
+
+    .navigation nav ul {
+        flex-direction: column;
+    }
+    .navigation nav ul li {
+        margin: 10px 0;
+        padding: 0px 70px ;
+    }
+    .navigation nav ul li a {
+        font-size: 18px;
+    }
+    .burger_icon{
+        font-size: 3rem;
+        display: block;
+      }
+    .parent_hero{
+        flex-direction: column;
+        padding: 20px 60px;
+    }
+    .Text_div{
+        padding: 2% 0;
+    }
+    
+    .text_side{
+        width: 100%;
+    }
+    .img_side{
+        width: 80%;
+    }
+
+    /* Cards here  */
+   
+    .card{
+        width: 25%;
+    }
+    .Card_img img{
+        height: 50px;
+    }
+    
+    .star{
+      margin-left: 10%;
+    }
+    .parent_group{
+        display: none;
+    }
+   
+
+    /* Another cards end here  */
+
+    /* static start  */
+
+    
+    .our-card{
+        width: 13%;
+    }
+    /* our_card end here  */
+    .img-gallery{
+        flex-direction: column;
+    }
+    .right-gallery{
+        width: 80%;
+    }
+    .left-gallery{
+        width: 88%;
+        text-align: center;
+    }
+    .sub-gallery{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .links_grp{
+        display: none;
+    }
+    .card_parent{
+       flex-wrap: wrap;
+    }
+    .card {
+        width: 150px;
+        margin: 10px 0;
+    }
+    .Card_img img {
+        height: 100px;
+    }
+    /* .small_cards{
+        flex-wrap: wrap;
+    }
+    .product_card{
+        width: 150px;
+        margin: 10px 0;
+    } */
+    .big-card{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 15px;
+      }
+      .product_card{
+        width: 140px;
+        margin: auto;
+      }
+      .product_text {
+        font-size: 1.2rem;
+    }
+    .Text_div h2 {
+        font-size: 8rem;
+        margin: 0%;
+        letter-spacing: 0.5rem;
+    }
+     .links_grp label{
+        font-size: .8rem;
+    } 
+     .Card_text{
+        font-size: 1.2rem;
+    }
+    .Card_text a{
+        font-size: 1rem;
+    }
+    .star{
+        font-size: 1.2rem;
+    }
+    .star_btn{
+     display: none;
+    }
+    .our-card {
+        width: 140px;
+    }
+    .our-card-img i{
+    font-size: 3rem;
+    }
+    .our-card-txt span{
+        font-size: 1.2rem;
+    }
+    .left-gallery {
+        width: 80%;
+        text-align: center;
+        margin: 11px;
+    }
+    .footer_sec{
+        flex-direction: column;
+    }
+    /* footer here  */
+    .footer_content{
+        width: 100%;
+    }
+    .footer_sec hr{
+        display: block;
+        width: 100%;
+        margin: 2rem 0;
+       }
+}
